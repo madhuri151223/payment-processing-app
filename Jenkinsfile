@@ -20,7 +20,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh 'echo "Deploying to $DEPLOYMENT_ENV"'
+                sh 'echo "Deploying to $DEPLOY_ENV"'
             }
         }
     }
